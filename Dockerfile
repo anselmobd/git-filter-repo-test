@@ -8,7 +8,7 @@ RUN pip install --upgrade pip
 # Defining working directory and adding source code
 WORKDIR /usr/src/app
 COPY requirements.txt bootstrap.sh ./
-COPY hellow.py ./
+COPY hello.py ./
 
 # Install requirements
 RUN pip install Flask
