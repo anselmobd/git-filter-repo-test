@@ -5,6 +5,7 @@ Utilizando Python 3.8 (mas deve funcionar que qq Python 3 compativel com Flask 2
 
 ```
 mkdir -p ~/workdir
+
 cd ~/workdir
 
 git clone https://github.com/anselmobd/git-filter-repo-test.git
@@ -22,8 +23,16 @@ pip install -r requirements.txt
 nohup python hello.py &
 
 curl http://localhost:5000/
+```
 
+Se aparecer
+```
+Oi, mundo!
+```
+tudo está funcionando corretamente.
+
+```
 fg
+```
 
 [ctrl-C]
-```
