@@ -53,6 +53,6 @@ deactivate
 
 cd ~
 
-rmdir -r ~/workdir
+rmdir -rf ~/workdir
 
 ```
