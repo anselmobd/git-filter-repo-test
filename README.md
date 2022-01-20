@@ -11,7 +11,7 @@ A aplicação é apenas um "Oi, mundo!" feito em Flask 2, rodando com Python 3.8
 Abaixo como implantar a aplicação e verificar o funcionamento.
 
 ```
-mkdir -p ~/workdir
+mkdir ~/workdir
 
 cd ~/workdir
 
@@ -38,8 +38,21 @@ Oi, mundo!
 ```
 tudo está funcionando corretamente.
 
+Para parar a aplicação:
+
 ```
 fg
 ```
 
-[ctrl-C]
+Depois tecle Ctrl-C
+
+Para limpar tudo
+
+```
+deactivate
+
+cd ~
+
+rmdir -r ~/workdir
+
+```
