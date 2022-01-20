@@ -1,7 +1,14 @@
 # git-filter-repo-test
-Teste git-filter-repo use before use it in a productions repository
 
-Utilizando Python 3.8 (mas deve funcionar que qq Python 3 compativel com Flask 2)
+Teste do uso do git-filter-repo.
+
+Por preciosismo resolvi que não bastava testar incluindo e excluindo arquivos no repositório.
+
+Eu queria testar com um projeto mínimo funcional, para ver se, depois do necessário rebase do repositório feito no servidor, a aplicação continuaria funcionando.
+
+A aplicação é apenas um "Oi, mundo!" feito em Flask 2, rodando com Python 3.8.
+
+Abaixo como implantar a aplicação e verificar o funcionamento.
 
 ```
 mkdir -p ~/workdir
