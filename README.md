@@ -4,7 +4,7 @@ Teste do uso do git-filter-repo.
 
 Por preciosismo resolvi que não bastava testar incluindo e excluindo arquivos no repositório.
 
-Eu queria testar com um projeto mínimo funcional, para ver se, depois do necessário rebase do repositório feito no servidor, a aplicação continuaria funcionando.
+Eu queria testar com um projeto mínimo funcional, para ver se, depois do necessário rebase do repositório em produção, a aplicação continuaria funcionando.
 
 A aplicação é apenas um "Oi, mundo!" feito em Flask 2, rodando com Python 3.8.
 
@@ -28,14 +28,20 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 nohup python hello.py &
+```
 
+Testando:
+
+```
 curl http://localhost:5000/
 ```
 
 Se aparecer
+
 ```
 Oi, mundo!
 ```
+
 tudo está funcionando corretamente.
 
 Para parar a aplicação:
